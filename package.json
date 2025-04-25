@@ -2,10 +2,16 @@
   "name": "how-to-set-up-a-professional-project",
   "version": "1.0.0",
   "description": "A backend at chai aur code",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hitesh sir",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
